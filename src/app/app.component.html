@@ -1,0 +1,19 @@
+
+
+<div class="table">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>name</th>
+      <th>quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td *ngFor="let prdt of products"></td>
+      <td>{{ prdt.id }}</td>
+      <td>{{ prdt.name }}</td>
+      <td>{{ prdt.quantity }}</td>
+    </tr>
+  </tbody>
+</div>
